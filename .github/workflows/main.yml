@@ -1,2 +1,9 @@
-name : Um fluxo de trabalho para meu arquivo Hello World 
-em : push
+jobs :
+   build :
+     name : Hello world action 
+    runs-on : ubuntu-latest 
+    steps :
+      - usa : actions / checkout @ v1 
+      - usa : ./action-a 
+        com :
+           MY_NAME : " Mona "
