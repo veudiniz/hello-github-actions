@@ -1,5 +1,5 @@
 name : Um fluxo de trabalho para meu arquivo Hello World 
-on : push
+em : push
 jobs :
    build :
      name : Hello world action 
